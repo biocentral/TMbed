@@ -10,10 +10,10 @@ We use a Protein Language Model, [ProtT5-XL-U50](https://github.com/agemagician/
 Pre-Print: [bioRxiv](https://doi.org/10.1101/2022.06.12.495804)\
 Publication: [BMC Bioinformatics](https://doi.org/10.1186/s12859-022-04873-x)
 
-TMbed is also available via [bio_embeddings](https://github.com/sacdallago/bio_embeddings) and [LambdaPP](https://embed.predictprotein.org/) [2].\
+TMbed is also available via [biocentral](https://biocentral.rostlab.org) [2], [bio_embeddings](https://github.com/sacdallago/bio_embeddings) [3] and [LambdaPP](https://embed.predictprotein.org) [4].\
 Or you can try out TMbed using [Google Colab](https://colab.research.google.com/drive/1FbT2rQHYT67NNHCrGw4t0WMEHCY9lqR2?usp=sharing).
 
-Visit [TMVisDB](https://tmvisdb.predictprotein.org) [3] to see precomputed predictions for AlphaFold DB [4] structures.
+Visit [TMVisDB](https://tmvisdb.predictprotein.org) [5] to see precomputed predictions for AlphaFold DB [6] structures.
 
 # Table of Contents
 
@@ -223,22 +223,16 @@ We provide precomputed predictions for the human proteome and for UniProtKB/Swis
 -   Human (21-04-2022): [Zenodo](https://zenodo.org/records/14705941)
 -   UniProtKB/Swiss-Prot (11-05-2022): [Zenodo](https://zenodo.org/records/14705941)
 
-## Roadmap
-
--   [x] Install via GitHub
--   [ ] Publish pypi package
--   [x] Add data sets to GitHub
--   [x] Create Google Colab Notebook
--   [ ] Add training scripts to GitHub
--   [x] Integrate into [bio_embeddings](https://github.com/sacdallago/bio_embeddings)
--   [x] Integrate into [LambdaPP](https://embed.predictprotein.org/)
-
 ## References
 
 [1] Elnaggar A, Heinzinger M, Dallago C, Rihawi G, Wang Y, Jones L, Gibbs T, Feher T, Angerer C, Bhowmik D, Rost B (2021). ProtTrans: Towards Cracking the Language of Lifes Code Through Self-Supervised Deep Learning and High Performance Computing. IEEE Transactions on Pattern Analysis and Machine Intelligence. doi: 10.1109/TPAMI.2021.3095381.
 
-[2] Olenyi T, Marquet C, Heinzinger M, Kröger B, Nikolova T, Bernhofer M, Sändig P, Schütze K, Littmann M, Mirdita M, Steinegger M, Dallago C, Rost B (2023). LambdaPP: Fast and accessible protein-specific phenotype predictions. Protein Sci, 32, 1:e4524.
+[2] Franz S, Olenyi T, Schloetermann P, Smaoui A, Jimenez-Soto L F, Rost B (2026). Biocentral: Embedding-based Protein Predictions. Journal of Molecular Biology, Article 169673.
 
-[3] Olenyi T, Marquet C, Grekova A, Houri L, Heinzinger M, Dallago C, Rost B (2024). TMVisDB: Annotation and 3D-visualization of transmembrane proteins. bioRxiv, 2024.11.22.624323.
+[3] Dallago C, Schütze K, Heinzinger M, Olenyi T, Littmann M, Lu A X, Yang K K, Min S, Yoon S, Morton J T, Rost B (2021). Learned Embeddings from Deep Learning to Visualize and Predict Protein Sets. Current Protocols, 1, e113.
 
-[4] Varadi M, Anyango S, Deshpande M, Nair S, Natassia C, Yordanova G, Yuan D, Stroe O, Wood G, Laydon A, Zidek A, Green T, Tunyasuvunakool K, Petersen S, Jumper J, Clancy E, Green R, Vora A, Lutfi M, Figurnov M, Cowie A, Hobbs N, Kohli P, Kleywegt G, Birney E, Hassabis D, Velankar S (2022). AlphaFold Protein Structure Database: massively expanding the structural coverage of protein-sequence space with high-accuracy models. Nucleic Acids Res, 50, D1:D439-D444.
+[4] Olenyi T, Marquet C, Heinzinger M, Kröger B, Nikolova T, Bernhofer M, Sändig P, Schütze K, Littmann M, Mirdita M, Steinegger M, Dallago C, Rost B (2023). LambdaPP: Fast and accessible protein-specific phenotype predictions. Protein Sci, 32, 1:e4524.
+
+[5] Olenyi T, Marquet C, Grekova A, Houri L, Heinzinger M, Dallago C, Rost B (2024). TMVisDB: Annotation and 3D-visualization of transmembrane proteins. bioRxiv, 2024.11.22.624323.
+
+[6] Varadi M, Anyango S, Deshpande M, Nair S, Natassia C, Yordanova G, Yuan D, Stroe O, Wood G, Laydon A, Zidek A, Green T, Tunyasuvunakool K, Petersen S, Jumper J, Clancy E, Green R, Vora A, Lutfi M, Figurnov M, Cowie A, Hobbs N, Kohli P, Kleywegt G, Birney E, Hassabis D, Velankar S (2022). AlphaFold Protein Structure Database: massively expanding the structural coverage of protein-sequence space with high-accuracy models. Nucleic Acids Res, 50, D1:D439-D444.
